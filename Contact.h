@@ -12,7 +12,7 @@ private:
 	string Phone;
 public:
 	Contact();
-	void Set(string name, int age, string phone);
+	void Set(const string& name, int age, const string& phone);
 	string GetName();
 	int GetAge();
 	string GetPhone();
